@@ -27,7 +27,7 @@ jobs:
         
   build-job:
     outputs:
-      build-output: ${{ steps.buildStep.outputs.buildOutput }}
+      build-output: ${{ steps.buildStep.outputs.buildOut }}
     name: build job
     runs-on: ubuntu-latest
     container:
